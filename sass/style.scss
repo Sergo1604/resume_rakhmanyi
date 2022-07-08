@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #161718;
+    li {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+.black__line {
+    background-color: #000;
+    color: #000;
+    font-size: 5px;
+}
+
+.wrapper {
+    width: 700px;
+    padding: 50px;
+    background-color: #DCDEF2;
+    display: grid;
+    grid-template-columns: 240px 240px;
+    justify-content: space-between;
+}
+
+.wrapper__img {
+    width: 240px;
+}
+
+.wrapper__left {
+    .title__name,
+    .title__prof {
+        Font-family: Arial;
+        Font-style: Bold;
+        Font-size: 24px;
+        Line-height: 1.2;
+        text-Align: Center Vertical;
+    }
+    .list__item {
+        Font-size: 16px;
+        font-weight: 700;
+        Line-height: 1.2;
+        text-Align: Left;
+        Letter-spacing: 1px;
+        text-transform: uppercase;
+        .item__text {
+            font-size: 14px;
+            font-weight: normal;
+        }
+    }
+    .education__list {
+        .list__item {
+            font-size: 14px;
+            font-weight: normal;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+.wrapper__right {
+    .contacts {
+        Font-style: Regular;
+        Font-size: 14px;
+        Line-height: 1.2;
+        margin-bottom: 1em;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+    .skills__title {
+        font-size: 24px;
+    }
+    .list__items {
+        margin-bottom: 1em;
+    }
+}
