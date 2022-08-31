@@ -38,6 +38,10 @@ body ul {
   width: 240px;
 }
 
+.logo__img {
+  width: 15%;
+}
+
 .wrapper__left .title__name,
 .wrapper__left .title__prof {
   Font-family: Arial;
